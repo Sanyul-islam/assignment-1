@@ -3,46 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Assignment-1</title>
   </head>
-  <body>
-    <header>
+  <body class="inter-font">
+    <header class="header-container">
+      <!-- nav -->
+
       <nav class="nav-container">
         <a href="">
           <img src="./assets/logo-navbar.png" alt="" />
         </a>
-        <div class="list flex">
-          <ul class="list-item flex">
-            <li class="">Features</li>
-            <li class="">How It Works</li>
-            <li class="">Why It's Different</li>
-          </ul>
-          <button class="nav-btn btn-primary">Get Early Access</button>
-        </div>
+
+        <ul class="list-item flex">
+          <li class=""><a href="">Features</a></li>
+          <li class=""><a href="">How It Works</a></li>
+          <li class=""><a href="">Why It's Different</a></li>
+        </ul>
+
+        <button class="nav-btn btn-primary">Get Early Access</button>
       </nav>
 
       <!-- hero section -->
 
       <section class="banner">
-        
-          <a href=""><img src="./assets/Early Access Now Open.png" alt="" /></a>
-        
-          <h1 class="caption">
-            Structured thinking, <br>
-            <span class="text-color">not just note-taking.</span>
-          </h1>
-          <p>
-            A private space to store notes, links, and learning summaries —
-            designed to<br>help you think clearly, connect ideas, and turn learning
-            into long-term knowledge.
-          </p>
-        
+        <a href=""><img src="./assets/Early Access Now Open.png" alt="" /></a>
+
+        <h1 class="caption">
+          Structured thinking, <br />
+          <span class="text-color">not just note-taking.</span>
+        </h1>
+        <p>
+          A private space to store notes, links, and learning summaries —
+          designed to<br />help you think clearly, connect ideas, and turn
+          learning into long-term knowledge.
+        </p>
+
         <div class="flex">
-            <button class="hero-btn1 btn-primary">Start Building Your Vault</button>
-            <button class="hero-btn2">See How It Works</button>
+          <button class="hero-btn1 btn-primary">
+            Start Building Your Vault
+          </button>
+          <button class="hero-btn2">See How It Works</button>
         </div>
       </section>
     </header>
+    <!-- card section -->
+
+    <section id="info-card-container">
+      <div class="info flex">
+        <h1 class="info-heading inter-font">
+          Notes don't fail, Structure does.
+        </h1>
+        <p>
+          You're not bad at learning. Your tools just weren't built for how
+          knowledge actually works.
+        </p>
+      </div>
+
+      <div class="card-container flex">
+        <div class="card-info flex">
+          <span class="icon-bg flex"
+            ><img src="./assets/Vector.png" alt=""
+          /></span>
+          <h4>Scattered notes</h4>
+          <p>Your ideas live in 10 different apps, none of them connected.</p>
+        </div>
+        <div class="card-info flex">
+          <span class="icon-bg flex"
+            ><img src="./assets/Bookmarks.png" alt=""
+          /></span>
+          <h4>Bookmark overload</h4>
+          <p>Hundreds of saved links you'll never revisit or remember.</p>
+        </div>
+        <div class="card-info flex">
+          <span class="icon-bg flex"
+            ><img src="./assets/Brain.png" alt=""
+          /></span>
+
+          <h4>No idea connections</h4>
+          <p>
+            Insights stay isolated, never building into bigger understanding.
+          </p>
+        </div>
+        <div class="card-info flex">
+          <span class="icon-bg flex"
+            ><img src="./assets/Info.png" alt=""
+          /></span>
+          <h4>Forgetting what you learned</h4>
+          <p>Knowledge fades because there's no system to retain it.</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
