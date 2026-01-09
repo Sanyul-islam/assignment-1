@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  /* share styles */
+  .flex{
+    display: flex;
+  }
+  .btn-primary {
+    color: rgba(255, 255, 255, 1);
+    background-color: #30B868;
+    cursor: pointer;
+  }
+
+
+/* nav section */
+.nav-container {
+  display: flex;
+  
+  margin: 18px 120px;
+}
+.list {
+  align-items: center;
+}
+.list-item{
+  list-style-type: none;
+  margin: 0 345px;
+  gap: 34px;
+  
+}
+.nav-btn{
+  height: 44px;
+  width: 164px;
+  
+}
